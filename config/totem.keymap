@@ -22,10 +22,11 @@
 
 &mt {
     quick-tap-ms = <100>;
-    global-quick-tap;
     flavor = "tap-preferred";
-    tapping-term-ms = <170>;
+    tapping-term-ms = <120>;
 };
+
+&sl { /delete-property/ quick-release; };
 
 / {
     combos { compatible = "zmk,combos"; };
@@ -117,10 +118,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-             &kp V  &kp M  &kp H          &kp G      &kp W        &none  &kp J           &kp U       &kp O           &kp Y
-             &kp S  &kp T  &kp N          &kp D      &kp F        &kp Q  &kp R           &kp E       &kp A           &kp I
-&key_repeat  &kp X  &kp K  &kp B          &kp C      &kp P        &kp Z  &kp L           &kp COMMA   &kp APOSTROPHE  &kp SEMICOLON  &kp DOT
-                           &kp BACKSPACE  &kp SPACE  &kp LCTRL    &none  &kp LEFT_SHIFT  &kp DELETE
+             &kp V  &kp M  &kp H  &kp G      &kp W        &none  &kp J           &kp U      &kp O           &kp Y
+             &kp S  &kp T  &kp N  &kp D      &kp F        &kp Q  &kp R           &kp E      &kp A           &kp I
+&key_repeat  &kp X  &kp K  &kp B  &kp C      &kp P        &kp Z  &kp L           &kp COMMA  &kp APOSTROPHE  &kp SEMICOLON  &kp DOT
+                           &sl 1  &kp SPACE  &kp LCTRL    &none  &kp LEFT_SHIFT  &mo 1
             >;
         };
 
@@ -144,7 +145,7 @@
 
             bindings = <
         &none      &none         &kp ESCAPE  &none           &none            &kp PAGE_UP     &kp HOME       &kp UP    &kp END          &kp PAGE_DOWN
-        &kp ENTER  &kp LEFT      &kp DOWN    &kp RIGHT       &kp LEFT_META    &kp RIGHT_META  &kp LEFT       &kp DOWN  &kp RIGHT        &kp LS(ENTER)
+        &kp ENTER  &kp BSPC      &kp LCTRL   &kp DEL         &kp LEFT_META    &kp RIGHT_META  &kp LEFT       &kp DOWN  &kp RIGHT        &kp LS(ENTER)
 &trans  &none      &kp LEFT_ALT  &kp TAB     &kp LEFT_SHIFT  &none            &kp RPAR        &kp RIGHT_ALT  &none     &kp RIGHT_SHIFT  &none          &trans
                                  &trans      &trans          &trans           &trans          &trans         &trans
             >;
