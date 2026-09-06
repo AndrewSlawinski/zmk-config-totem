@@ -215,5 +215,16 @@
 
             label = "CONTRACTION";
         };
+
+        symbol {
+            bindings = <
+        &kp LS(CARET)  &kp LS(PRCNT)  &kp LS(AMPS)   &kp LS(DLLR)  &kp LS(AT)       &none   &none      &none   &kp LS(LPAR)  &kp LS(RPAR)
+        &kp LS(EXCL)   &kp LS(STAR)   &kp MINUS      &kp LS(PLUS)  &kp LS(POUND)    &none   &kp EQUAL  &none   &kp LS(LT)    &kp LS(GT)
+&trans  &kp FSLH       &kp LS(DQT)    &kp LS(UNDER)  &kp GRAVE     &kp BSLH         &none   &none      &none   &kp LBKT      &kp RBKT      &trans
+                                      &trans         &trans        &trans           &trans  &trans     &trans
+            >;
+
+            label = "SYMBOL";
+        };
     };
 };
