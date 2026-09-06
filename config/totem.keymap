@@ -26,7 +26,7 @@
     tapping-term-ms = <120>;
 };
 
-&sl { /delete-property/ quick-release; };
+&sk { /delete-property/ ignore-modifiers; };
 
 / {
     combos { compatible = "zmk,combos"; };
@@ -145,8 +145,8 @@
 
             bindings = <
         &none      &none         &kp ESCAPE  &none           &none            &kp PAGE_UP     &kp HOME       &kp UP    &kp END          &kp PAGE_DOWN
-        &kp ENTER  &kp BSPC      &kp LCTRL   &kp DEL         &kp LEFT_META    &kp RIGHT_META  &kp LEFT       &kp DOWN  &kp RIGHT        &kp LS(ENTER)
-&trans  &none      &kp LEFT_ALT  &kp TAB     &kp LEFT_SHIFT  &none            &kp RPAR        &kp RIGHT_ALT  &none     &kp RIGHT_SHIFT  &none          &trans
+        &kp ENTER  &kp BSPC      &sk LCTRL   &kp DEL         &kp LEFT_META    &kp RIGHT_META  &kp LEFT       &kp DOWN  &kp RIGHT        &kp LS(ENTER)
+&trans  &none      &kp LEFT_ALT  &kp TAB     &sk LEFT_SHIFT  &none            &kp RPAR        &kp RIGHT_ALT  &none     &kp RIGHT_SHIFT  &none          &trans
                                  &trans      &trans          &trans           &trans          &trans         &trans
             >;
         };
