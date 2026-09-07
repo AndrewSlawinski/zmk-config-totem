@@ -135,7 +135,7 @@
         };
 
         contraction {
-            label = "CONTRACTION"
+            label = "CONTRACTION";
 
             bindings = <
         &c_ve   &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
