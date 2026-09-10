@@ -93,7 +93,6 @@
         compatible = "zmk,keymap";
 
         base {
-            label = "BASE";
             bindings = <
        &kp V  &kp M  &kp H  &kp G      &kp W         &none  &kp J           &kp U        &kp O             &kp Y
        &kp S  &kp T  &kp N  &kp D      &kp F         &kp Q  &kp R           &kp E        &kp A             &kp I
@@ -103,7 +102,6 @@
         };
 
         control {
-            label = "CONTROL";
             bindings = <
         &none          &none         &kp ESCAPE  &none           &none            &kp PAGE_UP     &kp HOME       &kp UP    &kp END          &kp PAGE_DOWN
         &kp ENTER      &kp BSPC      &sk LCTRL   &kp DEL         &kp LEFT_META    &kp RIGHT_META  &kp LEFT       &kp DOWN  &kp RIGHT        &kp LS(ENTER)
@@ -113,7 +111,6 @@
         };
 
         numeric {
-            label = "NUMERIC";
             bindings = <
         &kp N5    &kp N6        &kp N7  &kp N8  &kp N9      &kp N0    &kp N1  &kp N2  &kp N3        &kp N4
         &kp N1    &kp N2        &kp N3  &kp N4  &kp N5      &kp N4    &kp N5  &kp N6  &kp N7        &kp N8
@@ -123,7 +120,6 @@
         };
 
         function {
-            label = "FUNCTION";
             bindings = <
         &kp F1  &kp F2   &kp F3   &kp F4   &bt BT_NXT         &bt BT_PRV      &kp F7    &kp F8          &kp F9            &kp F12
         &kp F5  &kp F6   &kp F7   &kp F8   &kp PRINTSCREEN    &bt BT_CLR      &kp RGUI  &kp RALT        &kp RCTRL         &kp RSHFT
@@ -133,7 +129,6 @@
         };
 
         contraction {
-            label = "CONTRACTION";
             bindings = <
         &c_ve   &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
         &c_s    &trans  &c_nt   &c_d    &trans    &trans  &c_re   &trans  &trans  &suf_ion
@@ -143,7 +138,6 @@
         };
 
         symbol {
-            label = "SYMBOL";
             bindings = <
         &kp LS(CARET)  &kp LS(PRCNT)  &kp LS(AMPS)   &kp LS(DLLR)  &kp LS(AT)       &none   &none      &none   &kp LS(LPAR)  &kp LS(RPAR)
         &kp LS(EXCL)   &kp LS(STAR)   &kp MINUS      &kp LS(PLUS)  &kp LS(POUND)    &none   &kp EQUAL  &none   &kp LS(LT)    &kp LS(GT)
