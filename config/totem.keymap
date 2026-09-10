@@ -8,6 +8,8 @@
     tapping-term-ms = <120>;
 };
 
+&sk { quick-release; };
+
 / {
     combos { compatible = "zmk,combos"; };
 
