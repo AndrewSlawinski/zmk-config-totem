@@ -129,19 +129,19 @@
 
         base {
             bindings = <
-       &kp V  &kp M  &kp H  &kp G      &kp W         &none        &kp J           &kp U        &kp O             &kp Y
-       &kp S  &kp T  &kp N  &kp D      &kp F         &kp Q        &kp R           &kp E        &kp A             &kp I
-&none  &kp X  &kp K  &kp B  &kp C      &kp P         &kp Z        &kp L           &lt 5 COMMA  &lt 4 APOSTROPHE  &kp SEMICOLON  &kp DOT
-                     &mo 1  &kp SPACE  &sl_mo 2 3    &key_repeat  &kp LEFT_SHIFT  &mo 1
+       &kp V  &kp M  &kp H  &kp G      &kp W         &none       &kp J           &kp U        &kp O             &kp Y
+       &kp S  &kp T  &kp N  &kp D      &kp F         &kp Q       &kp R           &kp E        &kp A             &kp I
+&none  &kp X  &kp K  &kp B  &kp C      &kp P         &kp Z       &kp L           &lt 5 COMMA  &lt 4 APOSTROPHE  &kp SEMICOLON  &kp DOT
+                     &mo 1  &kp SPACE  &sl_mo 2 3    &sl_mo 2 3  &kp LEFT_SHIFT  &mo 1
             >;
         };
 
         control {
             bindings = <
-        &none          &volume       &kp ESCAPE  &none           &none              &kp PAGE_UP  &kp HOME  &kp UP    &kp END    &kp PAGE_DOWN
-        &kp ENTER      &kp BSPC      &sk LCTRL   &kp DEL         &brightness        &none        &kp LEFT  &kp DOWN  &kp RIGHT  &kp ENTER
-&trans  &sk LEFT_META  &sk LEFT_ALT  &kp TAB     &sk LEFT_SHIFT  &kp PRINTSCREEN    &none        &none     &none     &none      &none          &trans
-                                     &trans      &trans          &trans             &trans       &trans    &trans
+        &none          &volume       &kp ESCAPE  &none           &none              &kp PAGE_UP     &kp HOME  &kp UP    &kp END    &kp PAGE_DOWN
+        &kp ENTER      &kp BSPC      &sk LCTRL   &kp DEL         &brightness        &none           &kp LEFT  &kp DOWN  &kp RIGHT  &kp ENTER
+&trans  &sk LEFT_META  &sk LEFT_ALT  &kp TAB     &sk LEFT_SHIFT  &kp PRINTSCREEN    &studio_unlock  &none     &none     &none      &none          &trans
+                                     &trans      &trans          &trans             &trans          &trans    &trans
             >;
         };
 
