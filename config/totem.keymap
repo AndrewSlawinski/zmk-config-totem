@@ -18,6 +18,8 @@
             #binding-cells = <0>;
             bindings = <&kp SQT &kp V &kp E>;
             label = "C_VE";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         c_s: c_s {
@@ -25,6 +27,8 @@
             #binding-cells = <0>;
             bindings = <&kp SQT &kp S>;
             label = "C_S";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         c_m: c_m {
@@ -32,6 +36,8 @@
             #binding-cells = <0>;
             bindings = <&kp SQT &kp M>;
             label = "C_M";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         c_nt: c_nt {
@@ -39,6 +45,8 @@
             #binding-cells = <0>;
             bindings = <&kp N &kp SQT &kp T>;
             label = "C_NT";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         c_d: c_d {
@@ -46,6 +54,8 @@
             #binding-cells = <0>;
             bindings = <&kp SQT &kp D>;
             label = "C_D";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         c_re: c_re {
@@ -53,6 +63,8 @@
             #binding-cells = <0>;
             bindings = <&kp SQT &kp R &kp E>;
             label = "C_RE";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         c_ll: c_ll {
@@ -60,6 +72,8 @@
             #binding-cells = <0>;
             bindings = <&kp SQT &kp L &kp L>;
             label = "C_LL";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         suf_ing: suf_ing {
@@ -67,6 +81,8 @@
             #binding-cells = <0>;
             bindings = <&kp I &kp N &kp G>;
             label = "SUF_ING";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         suf_ion: suf_ion {
@@ -74,6 +90,8 @@
             #binding-cells = <0>;
             bindings = <&kp I &kp O &kp N>;
             label = "SUF_ION";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
     };
 
