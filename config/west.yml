@@ -7,13 +7,13 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: v0.3
+      revision: main
       import: app/west.yml
     - name: zmk-adaptive-key
       remote: urob
-      revision: v0.3
+      revision: main
     - name: zmk-leader-key
       remote: urob
-      revision: v0.3
+      revision: main
   self:
     path: config
