@@ -165,7 +165,7 @@
 
         contraction {
             bindings = <
-        &c_ve   &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+        &c_ve   &c_m    &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
         &c_s    &trans  &c_nt   &c_d    &trans    &trans  &c_re   &trans  &trans  &suf_ion
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &c_ll   &trans  &trans  &suf_ing  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
