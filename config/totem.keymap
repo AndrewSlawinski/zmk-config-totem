@@ -174,10 +174,10 @@
 
         symbol {
             bindings = <
-        &kp QMARK  &kp PRCNT  &kp AMPS   &kp DLLR   &kp CARET    &none   &none      &none   &kp LPAR  &kp RPAR
-        &kp EXCL   &kp STAR   &kp MINUS  &kp PLUS   &kp PIPE     &none   &kp EQUAL  &none   &kp LT    &kp GT
-&trans  &kp FSLH   &kp DQT    &kp UNDER  &kp GRAVE  &kp BSLH     &gresc  &kp AT     &none   &kp LBKT  &kp RBKT  &kp PERIOD
-                              &trans     &trans     &trans       &trans  &trans     &trans
+        &kp QMARK  &kp PRCNT  &kp AMPS   &kp DLLR   &kp HASH    &none   &kp CARET  &none   &kp LPAR  &kp RPAR
+        &kp EXCL   &kp STAR   &kp MINUS  &kp PLUS   &kp PIPE    &none   &kp EQUAL  &none   &kp LT    &kp GT
+&trans  &kp FSLH   &kp DQT    &kp UNDER  &kp GRAVE  &kp BSLH    &gresc  &kp AT     &none   &kp LBKT  &kp RBKT  &kp PERIOD
+                              &trans     &trans     &trans      &trans  &trans     &trans
             >;
         };
     };
